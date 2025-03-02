@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int SmallElement(int arr[], int n)
+void SmallElement(int arr[], int n)
 {
     int first,second,third;
     first=second=third=INT_MAX;
@@ -36,6 +36,6 @@ int main()
     {
         cin>>num[i];
     }
-    cout<<SmallElement(num,size);
+    SmallElement(num,size);
     
 }

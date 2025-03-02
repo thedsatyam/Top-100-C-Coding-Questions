@@ -20,5 +20,5 @@ using namespace std;
     {
         cin>>num[i];
     }
-     cout<<"Largest Element of  the array: "<<largElement(num, size);
+     cout<<"Largest Element of  the array is  "<<largElement(num, size)<<endl;
  }
